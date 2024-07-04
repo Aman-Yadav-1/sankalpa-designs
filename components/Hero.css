@@ -1,0 +1,47 @@
+/* In your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+.font-playwrite {
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .hero-section .slick-slider {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .hero-section .slick-slide {
+    height: 100vh;
+  }
+  
+  .hero-section .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-section .get-in-touch-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+  }
+  
