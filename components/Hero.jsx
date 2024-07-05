@@ -35,7 +35,7 @@ const Hero = ({ images }) => {
         ))}
       </Swiper>
       {/* Text and Button Overlay */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl font-sans1 font-semibold z-10 pointer-events-none">
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl font-sans1 font-semibold z-10 pointer-events-none mt-20 ml-5">
         <span>Discover your <span className='font-playwrite'>living</span> space.</span>
         <Link href="/contact">
           <div className="mt-4 px-2 py-1 bg-black/50 text-white text-xs hover:text-black hover:bg-white/50 border border-white/50 pointer-events-auto transition-all duration-1000">
