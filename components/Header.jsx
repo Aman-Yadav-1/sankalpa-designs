@@ -42,7 +42,7 @@ const Header = () => {
               height={50}
             />
             {isScrolled && (
-              <span className="text-xl font-sans1 font-semibold mt-3">Sankalpa Designs</span>
+              <span className="text-xl font-sans1 font-medium mt-3">Sankalpa Designs</span>
             )}
           </div>
         </Link>
