@@ -34,14 +34,17 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center py-3">
         <Link href="/">
-          <h1 className="text-3xl font-semibold cursor-pointer">
+          <div className="flex items-center gap-2 cursor-pointer">
             <Image
               src={isScrolled ? LogoBlack : LogoWhite}
               alt="Sankalpa Designs"
               width={60}
               height={50}
             />
-          </h1>
+            {isScrolled && (
+              <span className="text-xl font-sans1 font-semibold mt-3">Sankalpa Designs</span>
+            )}
+          </div>
         </Link>
 
         {/* Desktop Nav */}
